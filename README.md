@@ -9,3 +9,73 @@
 <p>🎓 Sou estudante de Engenharia de Computação no 3º semestre e estou em busca de aprimorar minhas habilidades em Java, especialmente em polimorfismo. Este repositório serve como um complemento ao meu aprendizado, oferecendo exercícios desafiadores e projetos práticos para aplicar os conceitos aprendidos.</p>
 
 <p>🔥 O objetivo principal é fornecer um ambiente onde eu possa não apenas aprender os conceitos teóricos, mas também colocá-los em prática de maneira significativa, construindo soluções eficazes e elegantes por meio do polimorfismo.</p>
+
+<h2 align="center">🔒 Licença</h2>
+
+<p>⚖️ Este projeto está licenciado sob a <a href="LICENSE">Licença MIT</a>.</p>
+
+<h2 align="center">📧 Contato</h2>
+
+<h3>🔗 Redes Sociais e Contato</h3>
+
+<ul>
+  <li>📌 GitHub: <a href="https://github.com/hildocosta">hildocosta</a></li>
+  <li>💼 LinkedIn: <a href="https://www.linkedin.com/in/hildo-costa-b83812231/">Hildo Costa</a></li>
+  <li>✉️ Email: hildo.costa@pm.pr.gov.br</li>
+</ul>
+
+<p>Agora que você está preparado e animado, vamos começar!</p>
+
+<h2 align="center">🚀 Vamos Começar</h2>
+
+<h3>🧩 Polimorfismo </h3>
+
+<h2> Exercício - 01</h2>
+
+<p>💥 Uma empresa possui funcionários próprios e terceirizados. Para cada funcionário, deseja-se registrar o nome, horas trabalhadas e valor por hora. Funcionários terceirizados possuem ainda uma despesa adicional.
+  
+O pagamento dos funcionários corresponde ao valor da hora multiplicado pelas horas trabalhadas, sendo que os funcionários terceirizados ainda recebem um bônus correspondednte a 110% de sua despesa adicional.
+
+Fazer um programa para ler os dados de N funcionários (N fornecido pelo usuário) e armazená-los em uma lista. Depois de ler todos os dados, mostrar o nome e pagamento de cada funcionários na mesma ordem em que foram digitados.
+
+Construa o programa conforme projeto abaixo e exemplo:</p>
+
+<h3>Projeto UML:</h3>
+
+ <p align="center">
+  <img src="https://github.com/hildocosta/Polimorfismo/blob/main/projetoUML.jpg">
+</p>
+
+<h3>Exemplo dos Objetos em Memoria:</h3>
+
+
+ <p align="center">
+  <img src="https://github.com/hildocosta/Polimorfismo/blob/main/objetosemmemoria.jpg">
+</p>
+
+
+<h3>Exemplo do Programa:</h3>
+
+```
+Enter the number of employees: 3
+Employee #1 data:
+Outsourced (y/n)? n
+Name: Alex
+Hours: 50
+Value per hour: 20.00
+Employee #2 data:
+Outsourced (y/n)? y
+Name: Bob
+Hours: 100
+Value per hour: 15.00
+Additional charge: 200.00
+Employee #3 data:
+Outsourced (y/n)? n
+Name: Maria
+Hours: 60
+Value per hour: 20.00
+PAYMENTS:
+Alex - $ 1000.00
+Bob - $ 1720.00
+Maria - $ 1200.00
+```
